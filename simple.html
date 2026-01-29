@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>All CSS Selector Forms</title>
+        <style>
+            /*simple selectors*/
+            * {
+                font-family:Arial,sans-serif;
+            }
+            h1{
+                color:blue;
+            }
+            #unique{
+                color:red;
+                font-weight:bold;
+            }
+            .highlight{
+                background-color: yellow;
+                padding:5px;
+            }
+            h2,p{
+                color:green;
+            }
+            /*combinator selectors*/
+            div p{
+                font-style:italic;
+            }
+            ul>li{
+                color:purple;
+            }
+            h3+p{
+                background-color: lightgray;
+            }
+            h4~p{
+                border-left:3px solid orangw;
+                padding-left:5px;
+            }
+            /*PSEUDO-CLASS SELECTORS*/
+            a:hover{
+                color:red;
+            }
+            button:active{
+                background-color: lightblue;
+            }
+            input:focus{
+                border:2px solid blue;
+            }
+            p:first-child{
+                font-weight:bold;
+            }
+            /*PSEUDO-ELEMENT SELECTORS*/
+            p::first-letter{
+                font-size:30px;
+                color:brown;
+            }
+            p::first-line{
+                text-transform:uppercase;
+            }
+            ::selection{
+                background-color:black;
+                color:white;
+            }
+            /*ATRIBUTE SELECTOR*/
+            input[type="text"]{
+                background-color: #f0f8ff;
+            }
+            a[target="_blank"]{
+                color:magnets;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1>Simple Selectors Demo</h1>
+        <h2>Group Selector Example</h2>
+        <p>This paragraph is styled by group selector</p>
+        <p id="unique">This paragraph is styled by ID selector</p>
+        <p class="highlight">This paragraph is styled by class selector</p>
+
+        <h2>Combinator Selector Example</h2>
+        <div>
+            <p>descendant selector styling(inside div)</p>
+        </div>
+        <ul>
+            <li>child selector applied</li>
+            <li>another child element</li>
+        </ul>
+
+        <h3>Heading for Adjacent selector</h3>
+        <p>Adjacent sibling selector applied</p>
+        
+    <h4>Heading for General Sibling</h4>
+    <p>General sibling selector applied 1.</p>
+    <p>General sibling selector applied 2.</p>
+    <h2>Pseudo-class Selectors</h2>
+    <a href="#" target="_blank">Hover over this link</a><br><br>
+
+    <div>
+        <p>This is the first child paragraph.</p>
+        <p>This is the second paragraph.</p>
+    </div>
+
+    <h2>Pseudo-element Selectors</h2>
+    <p>This paragraph demonstrates pseudo-elements like first-letter and first-line.</p>
+
+    <h2>Attribute Selectors</h2>
+    <input type="text" placeholder="Text input field">
+    <a href="#" target="_blank">Link with target attribute</a>
+    </body>
+</html>
