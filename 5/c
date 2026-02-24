@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.text-demo {
+    font-size: 24px;            /* Font size */
+    font-weight: bold;          /* Bold text */
+    font-style: italic;         /* Italic text */
+    text-decoration: underline; /* Underline */
+    text-transform: uppercase;  /* Converts text to uppercase */
+    text-align: center;         /* Aligns text to center */
+}
+</style>
+</head>
+<body>
+
+<p class="text-demo">This is CSS FONT and TEXT demonstration</p>
+
+</body>
+</html>
