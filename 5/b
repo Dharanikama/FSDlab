@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Background Image Demo</title>
+
+<style>
+body {
+    height: 2000px; /* Just to allow scrolling */
+    
+    background-image: url("https://www.google.com/imgres?q=darshan%20raval&imgurl=https%3A%2F%2Fimages.news18.com%2Fibnlive%2Fuploads%2F2023%2F07%2Fdarshan-raval-interview.jpg&imgrefurl=https%3A%2F%2Fwww.news18.com%2Fmovies%2Fdarshan-raval-calls-his-upcoming-album-dard-a-cathartic-ode-to-his-journey-and-emotions-exclusive-8315533.html&docid=PvfIN8_p6b3RlM&tbnid=W4jir9BNPkVWLM&vet=12ahUKEwjMm9qwwPKSAxUKRmwGHX8PCZAQnPAOegQIIRAB..i&w=1200&h=900&hcb=2&ved=2ahUKEwjMm9qwwPKSAxUKRmwGHX8PCZAQnPAOegQIIRAB"); /* Replace with your image */
+    background-repeat: repeat-x;     /* Repeat horizontally */
+    background-attachment: fixed;    /* Stays fixed while scrolling */
+    background-position: center 50%; /* Image placed halfway down */
+}
+</style>
+
+</head>
+<body>
+
+<h1>Background Image Fixed Example</h1>
+<p>Scroll down to see that the background image stays in place.</p>
+
+</body>
+</html>
