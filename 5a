@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* Color using HEX */
+.hex-color {
+    color: #ff5733;
+}
+
+/* Color using RGB */
+.rgb-color {
+    color: rgb(0, 128, 255);
+}
+
+/* Color using RGBA (with transparency) */
+.rgba-color {
+    color: rgba(0, 128, 0, 0.7);
+}
+
+/* Color using HSL */
+.hsl-color {
+    color: hsl(200, 80%, 50%);
+}
+
+/* Predefined named color */
+.named-color {
+    color: violet;
+}
+</style>
+</head>
+<body>
+
+<h2 class="hex-color">This is HEX Color (#ff5733)</h2>
+<h2 class="rgb-color">This is RGB Color (rgb(0, 128, 255))</h2>
+<h2 class="rgba-color">This is RGBA Color (rgba(0,128,0,0.7))</h2>
+<h2 class="hsl-color">This is HSL Color (hsl(200,80%,50%))</h2>
+<h2 class="named-color">This is Named Color (violet)</h2>
+
+</body>
+</html>
